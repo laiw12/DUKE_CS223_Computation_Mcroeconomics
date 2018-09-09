@@ -1,1 +1,1 @@
-# DUKE_CS223_Computation_mMcroeconomics
+# DUKE_CS223_Computation_Mcroeconomics
