@@ -1,0 +1,46 @@
+Problem:    utility
+Rows:       5
+Columns:    5
+Non-zeros:  18
+Status:     OPTIMAL
+Objective:  objective = 0.02 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 objective    B           0.02                             
+     2 margin_constraint[pa]
+                    B           0.04            -0               
+     3 margin_constraint[pb]
+                    NL             0            -0                        -0.5 
+     4 margin_constraint[pc]
+                    NL             0            -0                        -0.1 
+     5 margin_constraint[pd]
+                    NL             0            -0                        -0.4 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 utility[a]   NL             0             0             1         -0.02 
+     2 utility[b]   B            0.8             0             1 
+     3 utility[c]   B            0.4             0             1 
+     4 utility[d]   NU             1             0             1          0.02 
+     5 margin       B           0.02             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.78e-17 on row 3
+        max.rel.err = 2.10e-17 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.11e-16 on column 5
+        max.rel.err = 3.70e-17 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
